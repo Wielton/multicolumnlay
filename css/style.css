@@ -1,0 +1,44 @@
+html {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+
+    background-color: gold;
+    margin: 42px 100px 42px 100px;
+
+}
+/* Top Right Bottom Left */
+.red-box {
+    display: inline-block;
+    background-color: red;
+    border: 5px black solid;
+    padding: 300px 125px 300px 125px;
+    margin: 5px 30px 5px 50px;
+    
+
+}
+.green-box {
+    display: inline-block;
+    background-color: green;
+    border: 5px black solid;
+    padding: 300px 125px 300px 125px;
+    margin: 5px 30px 5px 30px;
+   
+}
+.blue-box {
+    display: inline-block;
+    background-color: blue;
+    border: 5px black solid;
+    padding: 300px 125px 300px 125px;
+    margin: 5px 30px 5px 30px;
+    
+}
+.purple-box {
+    display: inline-block;
+    background-color: purple;
+    border: 5px black solid;
+    padding: 300px 125px 300px 125px;
+    margin: 5px 50px 5px 30px;
+}
