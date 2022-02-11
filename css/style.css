@@ -1,49 +1,98 @@
+/* 
+px - done
+% - done
+pt - done
+em - done
+rem - done
+vw - done
+vh - done 
+*/
+
 *{
     padding: 0;
     margin: 0;
 }
 
-body {
-    background-color: yellow;
-    padding: 19px 180px 20px 180px;
-    border: 5px black solid;
+html {
+    font-size: 5pt;
 }
 
-.main{
-    padding-left: 10px;
+body {
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    background-color: yellow;
+    border: solid black;   
+    border-width: 1px; 
+}
+
+header {
+    box-sizing: border-box;
+    width: 100%;
+    height: 13%;
+    
+}
+#title {
+    
+    font-size: 6.5rem;
+    padding-left:  36%;
+}
+#name {
+    padding: 1% 46.5% 1% 46.5%;
+    font-size: 2em;
+}
+
+#main{
+    box-sizing: border-box;
+    width: 100%;
+    height: 87%;
+    padding: 2% 10% 2% 10%;
+    
+    
 }
 
 /* Top Right Bottom Left */
 
 .red-box {
     display: inline-block;
+    box-sizing: border-box;
     background-color: red;
-    border: 5px black solid;
-    padding: 300px 125px 300px 125px;
-    margin: 25px 10px 25px 10px;
+    border: solid black;
+    border-width: 2%;
+    width: 18%;
+    height: 100%;
+    margin-right: 9%;
     
-
 }
+
 .green-box {
     display: inline-block;
+    box-sizing: border-box;
     background-color: green;
-    border: 5px black solid;
-    padding: 300px 125px 300px 125px;
-    margin: 25px 10px 25px 10px;
+    border: solid black;
+    border-width: 2%;
+    width: 18%;
+    height: 100%;
+    margin-right: 9%;
 }
 
 .blue-box {
     display: inline-block;
+    box-sizing: border-box;
     background-color: blue;
-    border: 5px black solid;
-    padding: 300px 125px 300px 125px;
-    margin: 25px 10px 25px 10px;
+    border: solid black;
+    border-width: 2%;
+    width: 18%;
+    height: 100%;
+    margin-right: 9%;
 }
 
 .purple-box {
     display: inline-block;
+    box-sizing: border-box;
     background-color: purple;
-    border: 5px black solid;
-    padding: 300px 125px 300px 125px;
-    margin: 25px 10px 25px 10px;
+    border: solid black;
+    border-width: 2%;
+    width: 18%;
+    height: 100%;
 }
